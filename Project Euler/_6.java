@@ -1,5 +1,3 @@
-package proggy;
-
 import java.util.Scanner;
 
 public class _6 {
