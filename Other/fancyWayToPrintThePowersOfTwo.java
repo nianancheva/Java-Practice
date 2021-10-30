@@ -16,7 +16,7 @@ public class fancyWayToPrintThePowersOfTwo {
         for (int i = 0; i <= n; i++) {
             y = x + y;
             x = y;
-            System.out.println(x);
+            System.out.printf("%dth Power of 2: %d%n", i, x);
         }
 
     }
