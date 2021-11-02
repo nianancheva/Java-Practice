@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class jhgfd {
+public class fancyWayToPrintThePowersOfTwo {
     public static void main(String[] args) {
 
         //sorry for the long name of the class lol
@@ -8,7 +8,8 @@ public class jhgfd {
         Scanner scan = new Scanner(System.in);
 
         int n = Integer.parseInt(scan.nextLine());
-        
+
+        //n --> the highest power of 2 we want to get
         //would probably crash if n > 60
 
         long x = 1;
