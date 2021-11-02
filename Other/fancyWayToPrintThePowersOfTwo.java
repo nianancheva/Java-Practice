@@ -4,11 +4,13 @@ public class fancyWayToPrintThePowersOfTwo {
 
     public static void main(String[] args) {
       
-      //sorry for the long name of the class lol
+      // sorry for the long name of the class lol
 
         Scanner scan = new Scanner(System.in);
         
         int n = Integer.parseInt(scan.nextLine());
+        
+       // would probably crash if n > 30
         
         int x = 1;
         int y = 0;
